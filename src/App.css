@@ -1,0 +1,116 @@
+#searchBar{
+    padding: 6px;
+    height: 25px;
+    width: 40%;
+  }
+  
+  #searchButton{
+          padding: 6px;
+          height: 40px;
+          width: 90px;
+          background-color: blueviolet;
+          color: white;
+  }
+  .app-body{
+    background-color: gainsboro;
+    height: 100vmax;
+    width: 100vmax;
+    color: #484848;
+  }
+  
+  #input{
+    position: relative;
+    top: 30px;
+    margin-left:30vw;
+  }
+  
+  .weather-div{
+    background-color: white;
+    margin-top:40px;
+    margin-left: 25%;
+    margin-right:10%;
+    box-shadow: 5px 10px 2px 0px #B0B0B0;
+  }
+
+  .container{
+    display: flex;
+    height: 60vh;
+    align-content: center;
+    justify-content: center;
+  }
+  .temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    font-size: 80px;
+    color: #484848;
+    font-weight: bolder;
+    
+  }
+
+  .city{
+    font-size: 20px;
+  }
+
+  .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width:50%;
+  }
+
+  .details p{
+    font-size: 20px;
+  }
+
+  #loading{
+    margin-top:40px;
+    margin-left: 25%;
+    margin-right:17%;
+    padding:15px;
+    background-color: white;
+    color: gray;
+  }
+
+  #comment_container{
+    background-color: white;
+    margin-top:40px;
+    margin-left: 25%;
+    margin-right:10%;
+    padding: 20px;
+    box-shadow: 5px 10px #B0B0B0;
+  }
+  #textarea{
+    width: 100%;
+    background-color: gainsboro;
+    font-size: 20px;
+  }
+
+  #comments{
+    background-color: gainsboro;
+    width: 94%;
+    padding: 15px;
+    margin-top: 5px;
+    color: black;
+  }
+
+  i{
+    font-size: 20px;
+    color: black;
+    height: 10px;
+    width: 10px;
+    padding-right: 7px;
+  }
+  #water{
+    margin-left: 10px;
+    position: relative;
+    height: 80px;
+    width: 40px;
+    top: 22px;
+  }
+  
+  
